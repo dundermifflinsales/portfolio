@@ -1,0 +1,25 @@
+
+body
+{
+  background-color: rgb(246,246,246);
+}
+p
+{
+  margin:0;
+}
+button
+{
+  border:none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #25563a;
+  padding: 10px 10px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}

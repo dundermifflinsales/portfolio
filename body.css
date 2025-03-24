@@ -1,0 +1,222 @@
+.about-section{
+  padding-top: 150px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 170px;
+}
+.about-grid
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-div
+{
+  padding-top: 30px;
+}
+.yellow
+{
+  background-color: rgb(245, 205, 9);
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-weight: normal;
+}
+.socials 
+{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa 
+{
+  margin-right: 10px;
+}
+.socials i
+{
+  font-size: 2.5rem;
+  color:#02170b;
+}
+.pfp
+{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  object-position: center;
+  object-fit: cover;
+
+}
+.info-div{
+  padding: 10px 10px;
+  height: 100%;
+  width: 400px;
+  margin-right: 50px;
+}
+.text1{
+  font-size: 18px;
+}
+.name
+{
+  font-size: 50px;
+  color: rgb(36, 67, 36);
+  font-weight: bold;
+}
+.type
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+.title
+{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certifications-section
+{
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+.cert-grid
+{
+  padding-left: 200px;
+  padding-right: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 25px;
+}
+@media (max-width: 768px)
+{
+    .cert-grid
+    {
+        grid-template-columns: 1fr;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.cert-div
+{
+  height: 300px;
+  background-color: rgb(247, 241, 212);
+  border-radius: 12px;
+}
+.technologies-section
+{
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.tech-grid
+{
+  padding-left: 190px;
+  padding-right: 190px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 25px;
+}
+@media (max-width: 768px)
+{
+    .tech-grid
+    {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.tech-divs
+{
+  height: 250px;
+  background-color:rgb(227,227,227);
+  border-radius: 12px;
+}
+.projects-section
+{
+  padding-bottom: 100px;
+  padding-top: 120px;
+}
+.proj-grid
+{
+  padding-left: 190px;
+  padding-right: 190px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 25px;
+}
+@media (max-width: 768px)
+{
+    .proj-grid
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.proj-div
+{
+  height: 300px;
+  background-color:rgb(227,227,227);
+  border-radius: 12px;
+}
+.contact-section
+{
+  padding-top: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 400px;
+}
+.yayy
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  align-items: center;
+}
+@media (max-width: 768px)
+{
+  .yayy
+  {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+}
+.client-info
+{
+  background-color: #cad2cd;
+  width: 400px;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+#title
+{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(37, 54, 37, 0.556);
+  padding-bottom: 20px;
+}
+.typ 
+{
+  border: none;
+  width: 385px;
+  height: 40px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.mes {
+  height: 100px;
+}

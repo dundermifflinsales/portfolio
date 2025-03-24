@@ -1,0 +1,19 @@
+.head
+{
+    height: 55px;
+    background-color: #25563a;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
